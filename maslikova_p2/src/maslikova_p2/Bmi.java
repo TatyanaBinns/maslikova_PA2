@@ -30,9 +30,9 @@ public class Bmi {
 
 		if (calcBmi < 18.5)
 			System.out.println("(Underweight)");
-		else if ((calcBmi >= 18.5) && (calcBmi < 25))
+		else if (calcBmi >= 18.5 && calcBmi < 25)
 			System.out.println("(Normal weight)");
-		else if ((calcBmi >= 25) && (calcBmi < 30))
+		else if (calcBmi >= 25 && calcBmi < 30)
 			System.out.println("(Overweight)");
 		else
 			System.out.println("(Obesity)");
